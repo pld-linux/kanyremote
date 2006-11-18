@@ -5,7 +5,7 @@ Version:	2.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/kanyremote/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/anyremote/%{name}-%{version}.tar.gz
 # Source0-md5:	2b35d41a9cd07801c344b92db77992c7
 URL:		http://anyremote.sourceforge.net
 BuildRequires:	autoconf
