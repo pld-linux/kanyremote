@@ -1,5 +1,5 @@
-Summary:	kanyremote
-Summary(pl):	kanyremote
+Summary:	kanyremote - bluetooth remote for KDE
+Summary(pl):	kanyremote - pilot bluetooth dla KDE
 Name:		kanyremote
 Version:	2.0
 Release:	1
@@ -27,9 +27,27 @@ is not the only way to use it. kAnyRemote could be used with:
 - it could accept incoming connection from network
 - it could work with Java client written for JSR82 capabled phones
   (like Bemused)
-- it have limited support for existing Bemused clients
+- it have limited support for existing Bemused clients AnyRemote is
+  its console equivalent (you can find it in anyremote.spec).
 
-#%description -l pl
+%description -l pl
+Ogólnym celem tego projektu jest dostarczenie zdalnego,
+bezprzewodowego systemu kontroli nad Linuksem z u¿yciem Bluetootha lub
+podczerwieni (IrDA). W odró¿nieniu od innych programów tego typu
+kAnyRemote nie jest ograniczony do obs³ugi telefonów SonyEriccsona czy
+JSR-82. Zosta³ zaprojektowany jako cienka warstwa "komunikacyjna"
+miêdzy telefonem posiadaj±cym Bluetooth, a Linuksem i w zasadzie mo¿e
+zostaæ skonfigurowany do obs³ugi ka¿dej aplikacji. Po³±czenia
+Bluetooth nie s± jedynym sposobem by korzystaæ z programu. kAnyRemote
+mo¿e byæ u¿ywany wraz z:
+- telefonami posiadaj±cymi podczerwieñ (IrDA)
+- telefonami z po³±czeniem kablowym
+- mo¿e odbieraæ po³±czenia przychodz±ce z sieci
+- clientem Javy napisanym dla telefonów obs³uguj±cych JSR82 (jak
+  Bemused)
+- z ju¿ istniej±cymi klientami Bemused (czê¶ciowa obs³uga) Jego
+  konsolowym odpowiednikiem jest AnyRemote (mo¿esz go znale¼æ w
+  anyremote.spec).
 
 %prep
 %setup -q
