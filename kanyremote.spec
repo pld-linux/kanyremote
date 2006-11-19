@@ -11,7 +11,7 @@ Patch0:		%{name}-autotools.patch
 URL:		http://anyremote.sourceforge.net
 BuildRequires:	autoconf
 BuildRequires:	automake
-#BuildRequires:	kdelibs-devel >= 9:3.2.0
+BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
