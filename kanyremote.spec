@@ -27,8 +27,10 @@ is not the only way to use it. kAnyRemote could be used with:
 - it could accept incoming connection from network
 - it could work with Java client written for JSR82 capabled phones
   (like Bemused)
-- it have limited support for existing Bemused clients AnyRemote is
-  its console equivalent (you can find it in anyremote.spec).
+- it have limited support for existing Bemused clients.
+
+AnyRemote is its console equivalent (you can find it in
+anyremote.spec).
 
 %description -l pl
 Ogólnym celem tego projektu jest dostarczenie zdalnego,
@@ -45,9 +47,10 @@ mo¿e byæ u¿ywany wraz z:
 - mo¿e odbieraæ po³±czenia przychodz±ce z sieci
 - clientem Javy napisanym dla telefonów obs³uguj±cych JSR82 (jak
   Bemused)
-- z ju¿ istniej±cymi klientami Bemused (czê¶ciowa obs³uga) Jego
-  konsolowym odpowiednikiem jest AnyRemote (mo¿esz go znale¼æ w
-  anyremote.spec).
+- z ju¿ istniej±cymi klientami Bemused (czê¶ciowa obs³uga).
+
+Jego konsolowym odpowiednikiem jest AnyRemote (mo¿esz go znale¼æ w
+anyremote.spec).
 
 %prep
 %setup -q
