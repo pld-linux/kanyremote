@@ -8,7 +8,7 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/anyremote/%{name}-%{version}.tar.gz
 # Source0-md5:	2b35d41a9cd07801c344b92db77992c7
 Patch0:		%{name}-autotools.patch
-URL:		http://anyremote.sourceforge.net
+URL:		http://anyremote.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
