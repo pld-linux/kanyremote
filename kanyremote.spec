@@ -11,6 +11,7 @@ Patch0:		%{name}-autotools.patch
 URL:		http://anyremote.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	bluez-libs-devel
 BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
@@ -82,6 +83,8 @@ install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_desktopdir}/kde}
 
 mv -f $RPM_BUILD_ROOT{%{_datadir}/applnk/Utilities,%{_desktopdir}/kde}/kanyremote.desktop
 
+install src/pix/kanyremote*.png $RPM_BUILD_ROOT%{_pixmapsdir}
+
 %find_lang %{name} --with-kde
 
 %clean
@@ -93,4 +96,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/kanyremote
 %{_datadir}/apps/kanyremote
 %{_desktopdir}/kde/kanyremote.desktop
-%{_iconsdir}/*/*/apps/kanyremote*.png
+%{_pixmapsdir}/kanyremote*.png
