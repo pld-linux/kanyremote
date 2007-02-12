@@ -1,5 +1,5 @@
 Summary:	kanyremote - bluetooth remote for KDE
-Summary(pl):	kanyremote - pilot bluetooth dla KDE
+Summary(pl.UTF-8):   kanyremote - pilot bluetooth dla KDE
 Name:		kanyremote
 Version:	2.6
 Release:	1
@@ -35,24 +35,24 @@ is not the only way to use it. kAnyRemote could be used with:
 AnyRemote is its console equivalent (you can find it in anyremote
 package).
 
-%description -l pl
-Ogólnym celem tego projektu jest dostarczenie zdalnego,
-bezprzewodowego systemu kontroli nad Linuksem z u¿yciem Bluetootha lub
-podczerwieni (IrDA). W odró¿nieniu od innych programów tego typu
-kAnyRemote nie jest ograniczony do obs³ugi telefonów SonyEricssona czy
-JSR-82. Zosta³ zaprojektowany jako cienka warstwa "komunikacyjna"
-miêdzy telefonem posiadaj±cym Bluetooth, a Linuksem i w zasadzie mo¿e
-zostaæ skonfigurowany do obs³ugi ka¿dej aplikacji. Po³±czenia
-Bluetooth nie s± jedynym sposobem by korzystaæ z programu. kAnyRemote
-mo¿e byæ u¿ywany wraz z:
-- telefonami posiadaj±cymi podczerwieñ (IrDA)
-- telefonami z po³±czeniem kablowym
-- mo¿e odbieraæ po³±czenia przychodz±ce z sieci
-- klientem Javy napisanym dla telefonów obs³uguj±cych JSR82 (jak
+%description -l pl.UTF-8
+OgÃ³lnym celem tego projektu jest dostarczenie zdalnego,
+bezprzewodowego systemu kontroli nad Linuksem z uÅ¼yciem Bluetootha lub
+podczerwieni (IrDA). W odrÃ³Å¼nieniu od innych programÃ³w tego typu
+kAnyRemote nie jest ograniczony do obsÅ‚ugi telefonÃ³w SonyEricssona czy
+JSR-82. ZostaÅ‚ zaprojektowany jako cienka warstwa "komunikacyjna"
+miÄ™dzy telefonem posiadajÄ…cym Bluetooth, a Linuksem i w zasadzie moÅ¼e
+zostaÄ‡ skonfigurowany do obsÅ‚ugi kaÅ¼dej aplikacji. PoÅ‚Ä…czenia
+Bluetooth nie sÄ… jedynym sposobem by korzystaÄ‡ z programu. kAnyRemote
+moÅ¼e byÄ‡ uÅ¼ywany wraz z:
+- telefonami posiadajÄ…cymi podczerwieÅ„ (IrDA)
+- telefonami z poÅ‚Ä…czeniem kablowym
+- moÅ¼e odbieraÄ‡ poÅ‚Ä…czenia przychodzÄ…ce z sieci
+- klientem Javy napisanym dla telefonÃ³w obsÅ‚ugujÄ…cych JSR82 (jak
   Bemused)
-- ju¿ istniej±cymi klientami Bemused (czê¶ciowa obs³uga).
+- juÅ¼ istniejÄ…cymi klientami Bemused (czÄ™Å›ciowa obsÅ‚uga).
 
-Jego konsolowym odpowiednikiem jest AnyRemote (mo¿na go znale¼æ w
+Jego konsolowym odpowiednikiem jest AnyRemote (moÅ¼na go znaleÅºÄ‡ w
 pakiecie anyremote).
 
 %prep
