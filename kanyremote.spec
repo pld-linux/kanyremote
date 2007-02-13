@@ -1,5 +1,5 @@
 Summary:	kanyremote - bluetooth remote for KDE
-Summary(pl.UTF-8):   kanyremote - pilot bluetooth dla KDE
+Summary(pl.UTF-8):	kanyremote - pilot bluetooth dla KDE
 Name:		kanyremote
 Version:	2.6
 Release:	1
