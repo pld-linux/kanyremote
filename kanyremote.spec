@@ -1,13 +1,12 @@
 Summary:	kanyremote - bluetooth remote for KDE
 Summary(pl.UTF-8):	kanyremote - pilot bluetooth dla KDE
 Name:		kanyremote
-Version:	3.2
-Release:	2
+Version:	5.3
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/anyremote/%{name}-%{version}.tar.gz
 # Source0-md5:	3770c7689ac2247627ed24217cf60521
-Patch0:		%{name}-autotools.patch
 URL:		http://anyremote.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -57,12 +56,8 @@ pakiecie anyremote).
 
 %prep
 %setup -q
-%patch0 -p0
 
 %build
-cp -f /usr/share/automake/config.sub admin
-%{__make} -f admin/Makefile.common cvs
-
 %configure \
 %if "%{_lib}" == "lib64"
 	--enable-libsuffix=64 \
@@ -81,10 +76,6 @@ install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_desktopdir}/kde}
 	kde_libs_htmldir=%{_kdedocdir} \
 	kdelnkdir=%{_desktopdir} \
 
-mv -f $RPM_BUILD_ROOT{%{_datadir}/applnk/Utilities,%{_desktopdir}/kde}/kanyremote.desktop
-
-install src/pix/kanyremote*.png $RPM_BUILD_ROOT%{_pixmapsdir}
-
 %find_lang %{name} --with-kde
 
 %clean
@@ -94,6 +85,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README
 %attr(755,root,root) %{_bindir}/kanyremote
-%{_datadir}/apps/kanyremote
-%{_desktopdir}/kde/kanyremote.desktop
+%{_desktopdir}/kanyremote.desktop
 %{_pixmapsdir}/kanyremote*.png
