@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/anyremote/%{name}-%{version}.tar.gz
-# Source0-md5:	3770c7689ac2247627ed24217cf60521
+# Source0-md5:	af0a5a399d5006f08216e66fbc2b4bcd
 URL:		http://anyremote.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
