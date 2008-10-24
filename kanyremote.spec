@@ -2,7 +2,7 @@ Summary:	kanyremote - bluetooth remote for KDE
 Summary(pl.UTF-8):	kanyremote - pilot bluetooth dla KDE
 Name:		kanyremote
 Version:	5.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/anyremote/%{name}-%{version}.tar.gz
@@ -75,6 +75,17 @@ install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_desktopdir}/kde}
 	kde_htmldir=%{_kdedocdir} \
 	kde_libs_htmldir=%{_kdedocdir} \
 	kdelnkdir=%{_desktopdir} \
+
+# fix locale names
+mv $RPM_BUILD_ROOT%{_datadir}/locale/cs{_CZ,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/de{_DE,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/es{_ES,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/fr{_FR,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/hu{_HU,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/it{_IT,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/nl{_NL,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/pl{_PL,}
+mv $RPM_BUILD_ROOT%{_datadir}/locale/ru{_RU,}
 
 %find_lang %{name} --with-kde
 
