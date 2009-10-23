@@ -1,17 +1,17 @@
 Summary:	kanyremote - bluetooth remote for KDE
 Summary(pl.UTF-8):	kanyremote - pilot bluetooth dla KDE
 Name:		kanyremote
-Version:	5.3
-Release:	2
+Version:	5.10
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/anyremote/%{name}-%{version}.tar.gz
-# Source0-md5:	af0a5a399d5006f08216e66fbc2b4bcd
+# Source0-md5:	2586cb67892eab059bc8b71aebe028f2
 URL:		http://anyremote.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel
-BuildRequires:	kdelibs-devel >= 9:3.2.0
+BuildRequires:	kde4-kdelibs-devel >= 4.3
 BuildRequires:	libstdc++-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
