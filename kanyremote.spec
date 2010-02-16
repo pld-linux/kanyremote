@@ -13,6 +13,7 @@ BuildRequires:	automake
 BuildRequires:	bluez-libs-devel
 BuildRequires:	kde4-kdelibs-devel >= 4.3
 BuildRequires:	libstdc++-devel
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
