@@ -15,6 +15,7 @@ BuildRequires:	kde4-kdelibs-devel >= 4.3
 BuildRequires:	libstdc++-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.129
+Requires:	python-PyKDE4
 Requires:	python-bluetooth
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
